@@ -18,7 +18,7 @@ public class AccountTriggerHandler {
             con.Level__c = 'Primary';
             
             contact.add(con);
-            
+             
             Opportunity opp = new Opportunity();
             opp.AccountId = acc.id;
             opp.Name = acc.name;

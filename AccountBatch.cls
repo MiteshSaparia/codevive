@@ -12,7 +12,6 @@ global class AccountBatch implements Database.Batchable<sObject> {
         //Write Code Here 
     }
     global void finish(Database.BatchableContext BC) {  
-        //
-        To send confirmation emails or execute post-processing operations, use the finish method.
+        //To send confirmation emails or execute post-processing operations, use the finish method.
     }
 }

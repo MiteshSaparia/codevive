@@ -18,6 +18,6 @@ public with sharing class AccountRest {
         acc = (list<Account>)JSON.deserialize(str,list<Account>.class);
         
         return acc;    
-    }set;}
+    }set;} 
     
 }

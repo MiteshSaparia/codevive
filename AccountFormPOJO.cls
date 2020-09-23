@@ -11,7 +11,7 @@ public class AccountFormPOJO {
             System.debug(LoggingLevel.WARN, 'AccountFormPOJO'+text);
             consumeObject(parser);
           }
-        }
+        } 
       }
     }
   }
