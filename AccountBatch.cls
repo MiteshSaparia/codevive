@@ -9,7 +9,7 @@ global class AccountBatch implements Database.Batchable<sObject> {
             acc.Industry = 'Banking';    
         }
         update accList;  
-        //Write Code Here
+        //Write Code Here 
     }
     global void finish(Database.BatchableContext BC) {  
         //
